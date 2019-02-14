@@ -6,3 +6,4 @@ cache:
 
 script:
   - echo "ResBot at work..."
+  - mvn clean package

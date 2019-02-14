@@ -5,4 +5,5 @@ cache:
     - $HOME/.m2
 
 script:
-  - echo "ResBot at work (hacked)..."
+  - echo "ResBot at work..."
+  - mvn clean package

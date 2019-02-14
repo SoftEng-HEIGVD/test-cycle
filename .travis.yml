@@ -6,6 +6,6 @@ cache:
 
 script:
   - echo "ResBot at work..."
-  - git checkout -- src/test
-  - git checkout -- .travis.yml
+  - git checkout origin/master -- src/test
+  - git checkout origin/master -- .travis.yml
   - mvn clean package
